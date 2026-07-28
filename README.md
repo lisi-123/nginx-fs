@@ -9,3 +9,11 @@ chmod +x auto_ssl.sh
 ./auto_ssl.sh
 
 ```
+
+
+修改配置后重启 nginx 
+
+```bash
+systemctl reload nginx
+
+```
